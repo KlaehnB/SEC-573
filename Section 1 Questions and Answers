@@ -1,0 +1,43 @@
+Section 1 Questions and Answers
+
+Simply submit the string returned when you call .data('Lab1.1.0') as the answer
+mygame.answer(mygame.data(0))
+
+Submit the sum of .data()+ 5.
+mygame.answer(mygame.data(1)+5)
+
+Using exponent math, submit 16 to the nth power where n is the number in .data().
+
+.data() will contain a string.  Turn it into a float and submit it. 
+
+The four most significant bits of the first byte of an IP header contains the IP version. The data contains a 
+single byte expressed as an integer between 0 and 255. Use bit shifting to submit the integer in the first 4 
+bits of .data().
+
+Data will give you Python bytes. Submit a Python string.
+
+Data will give you a Python string. Submit bytes.
+
+What is the ordinal value of the 5th character in the .data()?
+
+How many bytes are required to store the character from .data()?
+
+ROT-13 encode the .data() string. For example ABCDEFG becomes NOPQRST 
+
+Decode the BASE64 encoded .data() string.
+
+Make .data() all CAPS.   For example Test->TEST 
+
+The answer is the position of the first letter of the word 'SANS' in the data() string. 
+
+Read the .data() string and write it backwards.
+
+Submit data() forward+backwards+forward. For example SAM -> SAMMASSAM
+
+Return the 2nd, 5th and 9th character.  For example 0123456789->148 
+
+Swap the first and last character. For example frog->grof, Hello World->dello Worlh etc.
+
+Reverse the first half of the data(). For example sandwich->dnaswich 
+
+Leet speak it (E->3,A->4,T->7,S->5,G->6) convert only uppercase letters. For example LeEtSpEAk->Le3t5p34k 
