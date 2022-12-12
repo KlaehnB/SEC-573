@@ -1,0 +1,8 @@
+(573) student@SEC573:~/Documents/pythonclass$ python
+Python 3.8.5 (default, Jul 28 2020, 12:59:40) 
+[GCC 9.3.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> import pyWars
+>>> mygame = pyWars.exercise("https://od.sec573.com:10000")
+>>> mygame.login("klaehn.burkes@srnl.doe.gov","Comb8Mint1Fate6")
+>>> mygame.print_rich_text = True

@@ -1,0 +1,45 @@
+Section2 Questions and Answers
+
+Read the list from data and return the 3rd element
+mygame.answer(mygame.data(19)[2])
+
+Build a list of numbers starting at 1 and up to but not including the number in data().
+mygame.answer(list(range(1,mygame.data(20))))
+
+Count the number of items in the list in data().  The answer is the number of items in the list.
+mygame.answer(len(mygame.data(21)))
+
+Split the data element based on the comma (",") delimiter and return the 10th element
+mygame.answer(mygame.data(22).split(",")[9])
+
+The data element contains a line from an /etc/shadow file. The shadow file is a colon delimited file.  The 2nd field in the colon delimited field contains the password 
+information.   The password information is a dollar sign delimited field with three parts.  The first part indicates what cypher is used.  The second part is the password
+salt.  The last part is the password hash.   Retrieve the password salt for the root user.
+mygame.answer(mygame.data(23).split(":")[1].split("$")[2])
+
+Add the string "Pywars rocks" to the end of the list in the data element.  Submit the new list. 
+mygame.answer(lab2_1_5(mygame.data(24)))
+
+Add up all the numbers in the list and submit the total.
+mygame.answer(sum(mygame.data(25)))
+
+Given a string that contains numbers separated by spaces, add up the numbers and submit the sum.  "1 1 1" -> 3 
+mygame.answer(sum(list(map(int,mygame.data(26).split()))))
+
+Create a string by joining together the words "this","python","stuff","really","is","fun" by the character in 
+.data().   For example if data contains a hyphen (ie "-") then you submit "this-python-stuff-really-is-fun".
+mygame.answer(mygame.data(27).join(['this','python','stuff','really','is','fun']))
+
+The answer is the list of numbers between 1 and 1000 that are evenly divisible by the number provided.  
+2->[2,4,6,8..] 4->[4,8,16..] 
+mygame.answer(lab2_1_9(mygame.data(28)))
+
+Given a list of hexadecimal digits return a string that is made from their ASCII characters.  Ex [41 4f] -> 
+"AO" 
+ mygame.answer(lab2_1_10(mygame.data(29)))
+
+You will be given a list that contains two lists.  Combine the two lists and eliminate duplicates.  The answer 
+is the SORTED combined list.  [] -> 
+mygame.answer(lab2_1_11(mygame.data(30)))
+
+
